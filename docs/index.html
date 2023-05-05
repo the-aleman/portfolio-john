@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Jairo González - Development engineer</title>
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script type="module" crossorigin src="/assets/index-17c65d7b.js"></script>
+  </head>
+  <body>
+    <!--======== HEADER =========-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo" id="nav-profile-fullname">John Jairo González</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i> <span id="nav-option-home">Inicio</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i> <span id="nav-option-about">Sobre mi</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i> <span id="nav-option-skills">Habilidades</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link">
+                <i class="uil uil-arrow nav__icon"></i> <span id="nav-option-experience">Experiencia</span>
+
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#testimonial" class="nav__link">
+                <i class="uil uil-comment-alt-lines nav__icon"></i> <span id="nav-option-testimonials">Testimonios</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i> <span id="nav-option-contact">Contactar</span>
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <div class="nav__lang">
+            <a href="javascript:;" id="lang-es" class="change-lang lang-active">Es</a>/<a href="javascript:;" id="lang-en" class="change-lang">En</a>
+          </div>
+
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+
+      </nav>
+    </header>
+
+    
+    <!--======== MAIN =========-->
+    <main class="main">
+
+      <!--======== HOME =========-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+
+            <div class="home__social">
+              <a href="https://www.linkedin.com/in/johnsinapsis" target="_blank" id="home-linkedin" class="home__social-icon">
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+              <a href="https://gitlab.com/johnsinapsis" target="_blank" id="home-gitlab" class="home__social-icon">
+                <i class="uil uil-gitlab"></i>
+              </a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 304 264" id="eJZ0QiPledR1" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+                  <mask id="mask0" mask-type="alpha">
+                    <path d="M127.215899,173.793282c28.669118-72.023734,174.544336-67.274916,193.094942-7.914697c22.766652,60.15169-34.571583,120.303377-102.028331,120.303377-53.12219-6.331754-106.24438-58.568747-91.066611-112.38868Z" transform="matrix(.85848 0 0 0.902545 9.597418-10.367077)"/>
+                  </mask>
+                  <g mask="url(#mask0)" transform="matrix(1.740297 0 0 1.740273-200.831804-169.457057)">
+                    <path d="M127.215899,173.793282c28.669118-72.023734,174.544336-67.274916,193.094942-7.914697c22.766652,60.15169-34.571583,120.303377-102.028331,120.303377-53.12219-6.331754-106.24438-58.568747-91.066611-112.38868Z" transform="matrix(.85848 0 0 0.902545 9.597418-10.367077)"/>
+                    <image class="home__blob-img" x="125" y="100" xlink:href="assets/img/perfil.png" />
+                  </g>
+                </svg>
+
+            </div>
+
+            <div class="home__data">
+              <h1 class="home__title"><span id="home-greeting">Hola, soy</span> <span id="profile-name">John Jairo</span></h1>
+              <h3 class="home__subtitle" id="profile-role">Ingeniero de Desarrollo Backend/Frontend/Fullstack</h3>
+              <p class="home__description" id ="profile-description">Ingeniero de sistemas con experiencia de 12 años en el desarrollo de software con PHP, JavaScript, ES6, TypeScript, Node.js, Nestjs, Vue.js, Java, Java EE, Spring Boot, Arquitecturas limpias, Principios SOLID, Clean Code, AWS.
+              </p>
+              <a href="#contact" class="button button--flex">
+                <span id="home-btn-contact">Contactar</span> <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+            
+          </div>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+          
+        </div>
+      </section>
+
+      
+      <!--======== ABOUT =========-->
+      <section class="about section" id="about">
+        <h2 class="section__title" id="about-title">Sobre mi</h2>
+        <span class="section__subtitle" id="about-subtitle">Mi introducción</span>
+
+        <div class="about__container container grid">
+          <img src="assets/img/about.jpg" alt="" class="about__img">
+          <div class="about__data">
+            <p class="about__description" id="about-description">
+              Soy un apasionado por la tecnología, interesado en aprender nuevas tecnologías y participar en diferentes proyectos, siempre buscando generar el mayor impacto en estos.
+              Tengo una amplia experiencia trabajando en diferentes campos y cargos de forma muy dinámica en equipo, aportando gracias a mi experiencia y liderazgo ideas que ayudan a resolver diferentes retos generando excelentes resultados en equipo.
+            </p>
+
+            <div class="about__buttons">
+              <a href="assets/pdf/John_Jairo_Gonzalez_Rodriguez_CV_es.pdf" download="" id="download-cv" class="button button--flex">
+                <span id="about-download-cv">Descargar CV</span> <i class="uil uil-download-alt button__icon"></i>
+              </a>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <!--======== SKILLS =========-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title" id="skills-title">Habilidades</h2>
+        <span class="section__subtitle" id="skills-subtitle">Mi stack tecnológico</span>
+
+        <div class="skills__container container grid" id="skills-container">
+          <div>
+
+            <!--======== SKILLS 1 =========-->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="uil uil-brackets-curly skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title" id="skills-frontend-title">Frontend developer</h1>
+                  <span class="skills__subtitle" id="skills-frontend-subtitle">Más de 2 años</span>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid" id="skills-frontend-list">
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__number">90%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__html"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__number">60%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__css"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__javascript"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">TypeScript</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__typescript"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">React</h3>
+                    <span class="skills__number">85%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__react"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">NextJS</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__nextjs"></span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+          
+          <div>
+            <!--======== SKILLS 2 =========-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-server-network skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title" id="skills-backend-title">Backend developer</h1>
+                  <span class="skills__subtitle" id="skills-backend-subtitle">Más de 12 años</span>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid" id="skills-backend-list">
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__javascript"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">TypeScript</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__typescript"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">NodeJS</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__nodejs"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">NestJS</h3>
+                    <span class="skills__number">75%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__nestjs"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">PHP</h3>
+                    <span class="skills__number">75%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__php"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Laravel</h3>
+                    <span class="skills__number">85%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__laravel"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">SQL</h3>
+                    <span class="skills__number">90%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__sql"></span>
+                  </div>
+                </div>
+
+              </div>
+            </div>            
+          </div>
+
+        </div>
+      </section>
+
+
+      <!--======== QUALIFICATION =========-->
+      <section class="qualification section" id="qualification">
+        <h2 class="section__title" id="qualification-title">Experiencia</h2>
+        <span class="section__subtitle" id="qualification-subtitle">Mi trayectoria</span>
+
+        <div class="qualification__container container">
+
+          <div class="qualification__tabs">
+            <div class="qualification__button button--flex qualification__active" data-target="#work">
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              <span id="qualification-work">Trabajo</span>
+            </div>
+            <div class="qualification__button button--flex" data-target="#education">
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              <span id="qualification-education">Educación</span>
+            </div>
+          </div>
+
+          <div class="qualification__sections">
+            <!--======== QUALIFICATION CONTENT 1 =========-->
+            <div class="qualification__content qualification__active" data-content id="work">
+              <!--======== QUALIFICATION 1 =========-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Ingeniero de desarrollo Fullstack</h3>
+                  <span class="qualification__subtitle">ORBIS DATA</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    11/2022 - Actualmente
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--======== QUALIFICATION 2 =========-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">Ingeniero de desarrollo Backend migration</h3>
+                  <span class="qualification__subtitle">NARANJAX</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    11/2022 - Actualmente
+                  </div>
+                </div>
+              </div>
+
+              <!--======== QUALIFICATION 3 =========-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Ingeniero de desarrollo Semisenior backend node.js / Typescript</h3>
+                  <span class="qualification__subtitle">INVERSIONES ACASA S.A.S.</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    04/2022 - 10/2022
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--======== QUALIFICATION 4 =========-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">Ingeniero de desarrollo Semisenior backend node.js</h3>
+                  <span class="qualification__subtitle">MASIVIAN S.A.S</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    11/2021 - 04/2022
+                  </div>
+                </div>
+              </div>
+
+              <!--======== QUALIFICATION 5 =========-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Ingeniero de desarrollo backend node.js - typescript microservicios</h3>
+                  <span class="qualification__subtitle">NOVATEC SOLUTIONS</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    02/2021 - 11/2021
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--======== QUALIFICATION 6 =========-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">Ingeniero de software - desarrollador</h3>
+                  <span class="qualification__subtitle">FREELANCE Sore Sas</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    01/2016 - 12/2020
+                  </div>
+                </div>
+              </div>
+
+              <!--======== QUALIFICATION 7 =========-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Coordinador de soporte y producción de software</h3>
+                  <span class="qualification__subtitle">SUPERVISA S.A</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    09/2018 - 03/2020
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--======== QUALIFICATION 8 =========-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+                <div>
+                  <h3 class="qualification__title">Coordinador de Sistemas</h3>
+                  <span class="qualification__subtitle">MEDICADIZ S.A.S</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    11/2006 - 10/2014
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!--======== QUALIFICATION CONTENT 2 =========-->
+            <div class="qualification__content" data-content id="education">
+              <!--======== QUALIFICATION 1 =========-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Ingeniero de sistemas</h3>
+                  <span class="qualification__subtitle">Universidad del Tolima</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2004 - 2010
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--======== QUALIFICATION 2 =========-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+                <div>
+                  <h3 class="qualification__title">Diplomado CISCO CCNA</h3>
+                  <span class="qualification__subtitle">Universidad del Tolima</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2009 - 2010
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+
+      <!--======== TESTIMONIALS =========-->
+      <section class="testimonial section" id="testimonial">
+        <h2 class="section__title" id="testimonials-title">Testimonios</h2>
+        <span class="section__subtitle" id="testimonials-subtitle">Lo que dicen de mi</span>
+
+        <div class="testimonial__container container swiper-container">
+          <div class="swiper-wrapper">
+
+            <!--======== TESTIMONIAL 1 =========-->
+            <div class="testimonial__content swiper-slide">
+              <div class="testimonial__data">
+                <div class="testimonial__header">
+                  <a href="https://www.linkedin.com/in/uriel-londono/" target="_blank" id="testimonial-url-img">
+                    <img src="./assets/img/testimonial_person_1.jpg" alt="" 
+                  class="testimonial__img" id="testimonial-img">
+                  </a>
+                  <div>
+                    <h3 class="testimonial__name"><a href="https://www.linkedin.com/in/uriel-londono/" target="_blank" id="testimonial-url">Uriel Londoño</a></h3>
+                  </div>
+                </div>
+                <div>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                </div>
+              </div>
+              <p class="testimonial__description" id="testimonial-comment">He tenido el placer de trabajar con John Jairo en varios proyectos, es un desarrollador altamente habilidoso con un gran conocimiento en diversas tecnologías y lo diferencia su capacidad para entender y resolver problemas complejos de manera efectiva.</p>
+            </div>
+
+          </div>
+
+          <div class="swiper-pagination swiper-pagination-testimonial"></div>
+
+        </div>
+      </section>
+
+
+      <!--======== CONTACT ME =========-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title" id="contact-title">Contactar</h2>
+        <span class="section__subtitle" id="contact-subtitle">Mi información de contacto</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+              <div>
+                <h3 class="contact__title" id="contact-email-title">Email</h3>
+                <span class="contact__subtitle" id="contact-email">johnsinapsis@gmail.com</span>
+              </div>
+            </div>
+            <div class="contact__information">
+              <i class="uil uil-phone contact__icon"></i>
+              <div>
+                <h3 class="contact__title" id="contact-phone-title">Teléfono</h3>
+                <span class="contact__subtitle" id="contact-phone">+57 3134876547</span>
+              </div>
+            </div>
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+              <div>
+                <h3 class="contact__title" id="contact-location-title">Ubicación</h3>
+                <span class="contact__subtitle" id="contact-location">Ibagué Colombia</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+    
+    <!--======== FOOTER =========-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title" id="footer-title">Redes Sociales</h1>
+          </div>
+          <div class="footer__socials">
+            <a href="https://www.linkedin.com" id="footer-linkedin" class="footer__social" target="_blank">
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+            <a href="https://gitlab.com/" id="footer-gitlab" class="footer__social" target="_blank">
+              <i class="uil uil-gitlab"></i>
+            </a>
+            <a href="https://twitter.com" id="footer-twitter" class="footer__social" target="_blank">
+              <i class="uil uil-twitter-alt"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__copy" id="footer-copy">&#169; John Jairo González. Todos los derechos reservados</p>
+      </div>
+    </footer>
+    
+    <!--======== SCROLL TOP =========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ui uil-arrow-up scrollup__icon"></i>
+    </a>
+        
+    <script src="assets/js/main.js"></script>
+    
+    
+  </body>
+</html>
