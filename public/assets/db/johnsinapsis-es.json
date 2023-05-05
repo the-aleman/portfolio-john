@@ -1,0 +1,274 @@
+{
+  "name": "John Jairo",
+  "full_name": "John Jairo González",
+  "photo": "foto.png",
+  "role": "Ingeniero de Desarrollo Backend/Frontend/Fullstack",
+  "description": "Ingeniero de sistemas con experiencia de 12 años en el desarrollo de software con PHP, JavaScript, ES6, TypeScript, Node.js, Nestjs, Vue.js, Java, Java EE, Spring Boot, Arquitecturas limpias, Principios SOLID, Clean Code, AWS.",
+  "phone": "+573134876547",
+  "email": "johnsinapsis@gmail.com",
+  "location": "Ibagué Colombia",
+  "linkedin": "https://www.linkedin.com/in/johnsinapsis",
+  "gitlab": "https://gitlab.com/johnsinapsis",
+  "twitter": "https://twitter.com/johnsinapsis",
+  "professionalProfile": "Soy un apasionado por la tecnología, interesado en aprender nuevas tecnologías y participar en diferentes proyectos, siempre buscando generar el mayor impacto en estos. Tengo una amplia experiencia trabajando en diferentes campos y cargos de forma muy dinámica en equipo, aportando gracias a mi experiencia y liderazgo ideas que ayudan a resolver diferentes retos generando excelentes resultados en equipo.",
+  "downloadcv": "./assets/pdf/John_Jairo_Gonzalez_Rodriguez_CV_es.pdf",
+  "workExperience": [
+    {
+      "company": "ORBIS DATA",
+      "dateStart": "11/2022",
+      "dateEnd": "Actualmente",
+      "position": "Ingeniero de desarrollo Fullstack",
+      "chief": "Fernando del Rio",
+      "chiefPosition": "Teach leader Peru",
+      "tools": "javascript, node.js, Nestjs, typescript, Postgres, Docker, docker composer, Git, Next, React, Spring boot"
+    },
+    {
+      "company": "NARANJAX",
+      "dateStart": "11/2022",
+      "dateEnd": "Actualmente",
+      "position": "Ingeniero de desarrollo Backend migration",
+      "chief": "Federico Ramirez",
+      "chiefPosition": "Teach leader",
+      "tools": "javascript, node.js, AWS lambda, typescript, Oracle, Git"
+    },
+    {
+      "company": "INVERSIONES ACASA S.A.S.",
+      "dateStart": "04/2022",
+      "dateEnd": "10/2022",
+      "position": "Ingeniero de desarrollo Semisenior backend node.js / Typescript",
+      "chief": "Diana Leon",
+      "chiefPosition": "Teach of lead",
+      "tools": "javascript, node.js AWS, Nestjs, typescript, Postgres, Docker, docker composer, Git, Next, React, bit.dev, Api gateway, Unit Test"
+    },
+    {
+      "company": "MASIVIAN S.A.S",
+      "dateStart": "11/2021",
+      "dateEnd": " 04/2022",
+      "position": "Ingeniero de desarrollo Semisenior backend node.js",
+      "chief": "Edwin Andrey Palacios",
+      "chiefPosition": "Líder técnico célula Automation",
+      "tools": "javascript, node.js AWS, Athena, typescript, DynamoDB, Docker, SQS, Git"
+    },
+    {
+      "company": "NOVATEC SOLUTIONS",
+      "dateStart": "02/2021",
+      "dateEnd": "11/2021",
+      "position": "Ingeniero de desarrollo backend node.js - typescript microservicios",
+      "chief": "John Alexander Sanchez",
+      "chiefPosition": "Director proyecto Claro Inspira",
+      "tools": "javascript, java EE, node.js, typescript, Oracle, Docker, Clean Architecture, Git"
+    },
+    {
+      "company": "FREELANCE Sore Sas",
+      "dateStart": "01/2016",
+      "dateEnd": "12/2020",
+      "position": "Ingeniero de software - desarrollador",
+      "chief": "Sandra Posada",
+      "chiefPosition": "Gerente Administrativa",
+      "tools": "javascript, node.js, typescript, socket.io, mariaDB, Clean Architecture, Laravel, PHP, Git, CSS, Bootstrap, Vue.js"
+    },
+    {
+      "company": "SUPERVISA S.A",
+      "dateStart": "09/2018",
+      "dateEnd": "03/2020",
+      "position": "Coordinador de soporte y producción de software",
+      "chief": "David Florez",
+      "chiefPosition": "Coordinador de Software",
+      "tools": "PHP, Phyton, Java, javascript, linux bash, Node.js, Mysql, MariaDB, Vue"
+    },
+    {
+      "company": "MEDICADIZ S.A.S",
+      "dateStart": "11/2006",
+      "dateEnd": "10/2014",
+      "position": "Coordinador de Sistemas",
+      "chief": "Tatiana del Pilar Rivera",
+      "chiefPosition": "Coordinadora Administrativa",
+      "tools": "PHP, javascript, SQL Server, arquitectura MVC, Virtualización de servidores, Jquery, Clean Architecture"
+    }
+  ],
+  "academics": [
+    {
+      "institute": "Universidad del Tolima",
+      "title": "Ingeniero de sistemas",
+      "description": "Estructuración de las bases de las IT, lógica de programación, Bases de datos relacionales, levantamiento de requerimientos, POO",
+      "dateStart": "2004",
+      "dateEnd": "2010"
+    },
+    {
+      "institute": "Universidad del Tolima",
+      "title": "Diplomado CISCO CCNA",
+      "description": "Cisco CCNA forma al estudiante para el entendimiento general de las redes IPV4 y manejo de todas las capas del modelo OSI, distribución y análisis de la segmentación de subredes y manejo de dispositivos de enrutamiento capa 2 y 3",
+      "dateStart": "2009",
+      "dateEnd": "2010"
+    }
+  ],
+  "skills": [
+    {
+      "icon": "./icons/nodejs.png",
+      "name": "Node.js"
+    },
+    {
+      "icon": "./icons/typescript.png",
+      "name": "Typescript"
+    },
+    {
+      "icon": "./icons/reactjs.png",
+      "name": "React"
+    },
+    {
+      "icon": "./icons/nestjs.png",
+      "name": "Nestjs"
+    },
+    {
+      "icon": "./icons/nextjs.png",
+      "name": "Nextjs"
+    },
+    {
+      "icon": "./icons/postgres.png",
+      "name": "PostgreSQL"
+    },
+    {
+      "icon": "./icons/mariadb.png",
+      "name": "MariaDB"
+    },
+    {
+      "icon": "./icons/oracle.png",
+      "name": "Oracle"
+    },
+    {
+      "icon": "./icons/mongodb.png",
+      "name": "MongoDB"
+    },
+    {
+      "icon": "./icons/docker.png",
+      "name": "Docker"
+    },
+    {
+      "icon": "./icons/sass.png",
+      "name": "Sass"
+    },
+    {
+      "icon": "./icons/english.png",
+      "name": "Inglés intermedio"
+    }
+  ],
+  "skills_indicators": {
+    "frontend": {
+      "title": "Frontend developer",
+      "experience": "Más de 2 años",
+      "skills": [
+        {
+          "name": "HTML",
+          "number": 90
+        },
+        {
+          "name": "CSS",
+          "number": 60
+        },
+        {
+          "name": "JavaScript",
+          "number": 80
+        },
+        {
+          "name": "TypeScript",
+          "number": 70
+        },
+        {
+          "name": "React",
+          "number": 85
+        },
+        {
+          "name": "NextJS",
+          "number": 80
+        }
+      ]
+    },
+    "backend": {
+      "title": "Backend developer",
+      "experience": "Más de 12 años",
+      "skills": [
+        {
+          "name": "JavaScript",
+          "number": 80
+        },
+        {
+          "name": "TypeScript",
+          "number": 70
+        },
+        {
+          "name": "NodeJS",
+          "number": 80
+        },
+        {
+          "name": "NestJS",
+          "number": 75
+        },
+        {
+          "name": "PHP",
+          "number": 75
+        },
+        {
+          "name": "Laravel",
+          "number": 85
+        },
+        {
+          "name": "SQL",
+          "number": 90
+        }
+      ]
+    }
+  },
+  "testimonials": {
+    "person": "Uriel Londoño",
+    "url": "https://www.linkedin.com/in/uriel-londono/",
+    "photo": "./assets/img/testimonial_person_1.jpg",
+    "comment": "He tenido el placer de trabajar con John Jairo en varios proyectos, es un desarrollador altamente habilidoso con un gran conocimiento en diversas tecnologías y lo diferencia su capacidad para entender y resolver problemas complejos de manera efectiva."
+  },
+  "site": {
+    "nav": {
+      "home": "Inicio",
+      "about": "Sobre mi",
+      "skills": "Habilidades",
+      "experience": "Experiencia",
+      "testimonials": "Testimonios",
+      "contact": "Contactar"
+    },
+    "home": {
+      "greeting": "Hola, soy",
+      "btncontact": "Contactar"
+    },
+    "about": {
+      "title": "Sobre mi",
+      "subtitle": "Mi introducción",
+      "download": "Descargar CV"
+    },
+    "skills": {
+      "title": "Habilidades",
+      "subtitle": "Mi stack tecnológico"
+    },
+    "experience": {
+      "title": "Experiencia",
+      "subtitle": "Mi trayectoria",
+      "work": "Trabajo",
+      "education": "Educación"
+    },
+    "testimonials": {
+      "title": "Testimonios",
+      "subtitle": "Lo que dicen de mi"
+    },
+    "contact": {
+      "title": "Contactar",
+      "subtitle": "Mi información de contacto",
+      "email": "Email",
+      "phone": "Teléfono",
+      "location": "Ubicación"
+    },
+    "social": {
+      "title": "Redes Sociales"
+    },
+    "copy": {
+      "title": "© John Jairo González. Todos los derechos reservados"
+    }
+
+  }
+}

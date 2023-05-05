@@ -1,0 +1,273 @@
+{
+  "name": "John Jairo",
+  "full_name": "John Jairo González",
+  "photo": "foto.png",
+  "role": "Development Engineer Backend/Frontend/Fullstack",
+  "description": "Systems engineer with 12 years of experience in software development with PHP, JavaScript, ES6, TypeScript, Node.js, Nestjs, Vue.js, Java, Java EE, Spring Boot, Clean Architectures, SOLID Principles, Clean Code, AWS.",
+  "phone": "+573134876547",
+  "email": "johnsinapsis@gmail.com",
+  "location": "Ibagué Colombia",
+  "linkedin": "https://www.linkedin.com/in/johnsinapsis",
+  "gitlab": "https://gitlab.com/johnsinapsis",
+  "twitter": "https://twitter.com/johnsinapsis",
+  "professionalProfile": "I am passionate about technology and interested in learning new technologies and participating in different projects, always seeking to generate the greatest impact in them. I have extensive experience working in different fields and positions in a very dynamic team environment, contributing with my experience and leadership ideas that help solve different challenges, generating excellent team results.",
+  "downloadcv": "./assets/pdf/John_Jairo_Gonzalez_Rodriguez_CV_en.pdf",
+  "workExperience": [
+    {
+      "company": "ORBIS DATA",
+      "dateStart": "11/2022",
+      "dateEnd": "Current",
+      "position": "Development engineer Fullstack",
+      "chief": "Fernando del Rio",
+      "chiefPosition": "Teach leader Peru",
+      "tools": "javascript, node.js, Nestjs, typescript, Postgres, Docker, docker composer, Git, Next, React, Spring boot"
+    },
+    {
+      "company": "NARANJAX",
+      "dateStart": "11/2022",
+      "dateEnd": "Current",
+      "position": "Development engineer Backend migration",
+      "chief": "Federico Ramirez",
+      "chiefPosition": "Teach leader",
+      "tools": "javascript, node.js, AWS lambda, typescript, Oracle, Git"
+    },
+    {
+      "company": "INVERSIONES ACASA S.A.S.",
+      "dateStart": "04/2022",
+      "dateEnd": "10/2022",
+      "position": "Development engineer Semisenior backend node.js / Typescript",
+      "chief": "Diana Leon",
+      "chiefPosition": "Teach of lead",
+      "tools": "javascript, node.js AWS, Nestjs, typescript, Postgres, Docker, docker composer, Git, Next, React, bit.dev, Api gateway, Unit Test"
+    },
+    {
+      "company": "MASIVIAN S.A.S",
+      "dateStart": "11/2021",
+      "dateEnd": " 04/2022",
+      "position": "Development engineer Semisenior backend node.js",
+      "chief": "Edwin Andrey Palacios",
+      "chiefPosition": "Líder técnico célula Automation",
+      "tools": "javascript, node.js AWS, Athena, typescript, DynamoDB, Docker, SQS, Git"
+    },
+    {
+      "company": "NOVATEC SOLUTIONS",
+      "dateStart": "02/2021",
+      "dateEnd": "11/2021",
+      "position": "Development engineer backend node.js - Typescript microservices",
+      "chief": "John Alexander Sanchez",
+      "chiefPosition": "Director proyecto Claro Inspira",
+      "tools": "javascript, java EE, node.js, typescript, Oracle, Docker, Clean Architecture, Git"
+    },
+    {
+      "company": "FREELANCE Sore Sas",
+      "dateStart": "01/2016",
+      "dateEnd": "12/2020",
+      "position": "Software engineer - development",
+      "chief": "Sandra Posada",
+      "chiefPosition": "Administrative chief",
+      "tools": "javascript, node.js, typescript, socket.io, mariaDB, Clean Architecture, Laravel, PHP, Git, CSS, Bootstrap, Vue.js"
+    },
+    {
+      "company": "SUPERVISA S.A",
+      "dateStart": "09/2018",
+      "dateEnd": "03/2020",
+      "position": "Support engineer and production",
+      "chief": "David Florez",
+      "chiefPosition": "Software Coordinator",
+      "tools": "PHP, Phyton, Java, javascript, linux bash, Node.js, Mysql, MariaDB, Vue"
+    },
+    {
+      "company": "MEDICADIZ S.A.S",
+      "dateStart": "11/2006",
+      "dateEnd": "10/2014",
+      "position": "Chief of IT",
+      "chief": "Tatiana del Pilar Rivera",
+      "chiefPosition": "Administrative coordinator",
+      "tools": "PHP, javascript, SQL Server, MVC architecture, server virtualization, Jquery, Clean Architecture"
+    }
+  ],
+  "academics": [
+    {
+      "institute": "University of Tolima",
+      "title": "Systems Engineer",
+      "description": "Structuring of the bases of IT, programmation logic, relational databases, survey of requirements, POO",
+      "dateStart": "2004",
+      "dateEnd": "2010"
+    },
+    {
+      "institute": "University of Tolima",
+      "title": "Diplomaed CISCO CCNA",
+      "description": "Cisco CCNA trains the student for the general understanding of IPV4 networks and management of all the layers of the OSI model, distribution and analysis of subnet segmentation and management of layer 2 and 3 routing devices.",
+      "dateStart": "2009",
+      "dateEnd": "2010"
+    }
+  ],
+  "skills": [
+    {
+      "icon": "./icons/nodejs.png",
+      "name": "Node.js"
+    },
+    {
+      "icon": "./icons/typescript.png",
+      "name": "Typescript"
+    },
+    {
+      "icon": "./icons/reactjs.png",
+      "name": "React"
+    },
+    {
+      "icon": "./icons/nestjs.png",
+      "name": "Nestjs"
+    },
+    {
+      "icon": "./icons/nextjs.png",
+      "name": "Nextjs"
+    },
+    {
+      "icon": "./icons/postgres.png",
+      "name": "PostgreSQL"
+    },
+    {
+      "icon": "./icons/mariadb.png",
+      "name": "MariaDB"
+    },
+    {
+      "icon": "./icons/oracle.png",
+      "name": "Oracle"
+    },
+    {
+      "icon": "./icons/mongodb.png",
+      "name": "MongoDB"
+    },
+    {
+      "icon": "./icons/docker.png",
+      "name": "Docker"
+    },
+    {
+      "icon": "./icons/sass.png",
+      "name": "Sass"
+    },
+    {
+      "icon": "./icons/english.png",
+      "name": "intermediate English"
+    }
+  ],
+  "skills_indicators": {
+    "frontend": {
+      "title": "Frontend developer",
+      "experience": "More than 2 years",
+      "skills": [
+        {
+          "name": "HTML",
+          "number": 90
+        },
+        {
+          "name": "CSS",
+          "number": 60
+        },
+        {
+          "name": "JavaScript",
+          "number": 80
+        },
+        {
+          "name": "TypeScript",
+          "number": 70
+        },
+        {
+          "name": "React",
+          "number": 85
+        },
+        {
+          "name": "NextJS",
+          "number": 80
+        }
+      ]
+    },
+    "backend": {
+      "title": "Backend developer",
+      "experience": "More than 12 years",
+      "skills": [
+        {
+          "name": "JavaScript",
+          "number": 80
+        },
+        {
+          "name": "TypeScript",
+          "number": 70
+        },
+        {
+          "name": "NodeJS",
+          "number": 80
+        },
+        {
+          "name": "NestJS",
+          "number": 75
+        },
+        {
+          "name": "PHP",
+          "number": 75
+        },
+        {
+          "name": "Laravel",
+          "number": 85
+        },
+        {
+          "name": "SQL",
+          "number": 90
+        }
+      ]
+    }
+  },
+  "testimonials": {
+    "person": "Uriel Londoño",
+    "url": "https://www.linkedin.com/in/uriel-londono/",
+    "photo": "./assets/img/testimonial_person_1.jpg",
+    "comment": "I have had the pleasure of working with John Jairo on several projects. He is a highly skilled developer with great knowledge in various technologies, and what sets him apart is his ability to understand and effectively solve complex problems."
+  },
+  "site" : {
+    "nav" : {
+      "home" : "Home",
+      "about" : "About",
+      "skills" : "Skills",
+      "experience" : "experience",
+      "testimonials" : "Testimonials",
+      "contact" : "Contactme"
+    },
+    "home": {
+      "greeting": "Hi, i'm",
+      "btncontact": "Contact Me"
+    },
+    "about": {
+      "title": "About me",
+      "subtitle": "My introduction",
+      "download": "Download CV"
+    },
+    "skills": {
+      "title": "Skills",
+      "subtitle": "My tech stack"
+    },
+    "experience": {
+      "title": "Experience",
+      "subtitle": "My personal journey",
+      "work": "Work",
+      "education": "Education"
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "subtitle": "What they say about me"
+    },
+    "contact": {
+      "title": "Contact me",
+      "subtitle": "My contact information",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location"
+    },
+    "social": {
+      "title": "Social Networks"
+    },
+    "copy": {
+      "title": "© John Jairo González. All rights reserved"
+    }
+  }
+}
